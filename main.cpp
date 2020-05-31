@@ -3,8 +3,7 @@
 #include <string>
 #include <vector>
 #include <SFML/Network.hpp>
-#include <SFML/Network/Socket.hpp>
-
+//try other libraries (if possible)?
 
 static bool port_is_open(const std::string &address, int port)
 {
