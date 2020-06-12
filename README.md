@@ -7,4 +7,4 @@ If any compile errors occur, make sure you have enviroment variables and librari
 
 **Idea:**
 Keep it simple. 
-Input address and port and wait for the scanning results.
+Input address and port(or ports, for example 20-80, that is from 20 to 80) and wait for the scanning results.
