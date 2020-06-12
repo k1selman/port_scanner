@@ -1,5 +1,4 @@
-# Port Scanner 
-## **Port Scanner written in C++**
+# Port Scanner written in C++
 
 **Libraries used:** iostream, sstream, string, vector, SFML/Network.hpp
 
