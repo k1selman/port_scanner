@@ -9,7 +9,8 @@ static bool port_is_open(const std::string &address, int port)
 {
     sf::TcpSocket socket;
     return (sf::TcpSocket().connect(address, port) == sf::Socket::Done);      //Find other way of doing it?
-    //There may occur some problem with the SFML library while compiling, and if so, make sure that the env. variables are set correctly
+    //There may occur some problem with the SFML library while compiling,
+    // and if so, make sure that the env. variables are set correctly
 }
 
 static std::vector<std::string> split(const std::string &string, char delim = ' ', bool allowEmpty = false)
